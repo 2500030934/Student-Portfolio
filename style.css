@@ -1,0 +1,40 @@
+```css
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background: #222;
+    color: white;
+}
+
+a {
+    color: white;
+    margin: 8px;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.flex p {
+    padding: 15px;
+    background: #ddd;
+}
+```
